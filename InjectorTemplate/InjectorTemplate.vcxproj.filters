@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="injector">
+      <UniqueIdentifier>{a6448e5c-2f62-4ec2-8b17-15537b0db8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IniReader">
+      <UniqueIdentifier>{57f77e4f-2b35-422c-9f31-2c7144ebc565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="injector\gvm">
+      <UniqueIdentifier>{9b85305a-e1bc-4f71-9bf4-5050a8820360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\assembly.hpp">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\calling.hpp">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\hooking.hpp">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\injector.hpp">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\utility.hpp">
+      <Filter>injector</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader\ini_parser.hpp">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader\IniReader.h">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectorTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\gvm\gvm.hpp">
+      <Filter>injector\gvm</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\gvm\translator.hpp">
+      <Filter>injector\gvm</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadIniCustom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchStuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InjectorTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
